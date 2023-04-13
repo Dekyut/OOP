@@ -35,10 +35,10 @@ public class WarnUpHonrubia {
 				}
 
 				System.out.println("RENT AGAIN? Y/N");
-				String choiceYN = in.nextLine();
-				if (choiceYN.equals("Y")||choiceYN.equals("y")) {
+				String YESNO = in.nextLine();
+				if (YESNO.equals("Y")) {
 					end = false;
-				} else if (choiceYN.equals("N")||choiceYN.equals("n")) {
+				} else if (YESNO.equals("N")) {
 					end = true;
 				}
 			} catch (Exception e) {
