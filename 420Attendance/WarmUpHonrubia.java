@@ -57,7 +57,6 @@ public class WarmUpHonrubia {
                 int copy = book.get_copy();
                 if (copy > 0){
                     System.out.println("You rented: " + books.get(choice).get_name());
-                    // decrement
                     book.set_copy(copy-=1);
                 }
                 else{
@@ -66,23 +65,22 @@ public class WarmUpHonrubia {
                 }
 
 
-                System.out.println("Rent again? Y/N");
-                // no idea why not next line but yes next only
+                System.out.println("Rent again? Yes/No");
                 String again = scan.next();
-                if (again.equals("N")) {
+                if (again.equals("No")) {
                     end = true;
                 }
-                else if (again.equals("Y")){
+                else if (again.equals("Yes")){
                     continue;
                 }
 
             } catch (IndexOutOfBoundsException e) {
-                System.out.println("Index does not exist");
+                System.out.println("Invalid Choice");
             } catch (InputMismatchException e) {
                 System.out.println("Invalid Choice");
             }
         }
-        System.out.println("Program end");
+        System.out.println("PROGRAM END");
     }
 }
 		
