@@ -37,11 +37,10 @@ public class WarmUpHonrubia {
             	System.out.println("------------------------------");
                 System.out.println("Electronic Book Rental System");
                 System.out.println("------------------------------");
-        
-                // For array lists, .size rather than .length
+     
                 for (int x = 0; x < books.size(); x++) {
                     System.out.print(x);
-                    // for array list, array.get(index).getterMethod
+                  
                     System.out.print(" " + books.get(x).get_name() + ", " +  books.get(x).get_author());
                     System.out.println();
         
