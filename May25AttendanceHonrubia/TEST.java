@@ -14,6 +14,7 @@ public class TEST {
 		System.out.println("Price: " + TCar.ToyotaPrice);
 		System.out.println("Tire Type: " + TCar.TireType);
 		
+		//These will print out the information available in the specific methods used for the Toyota_VIOS class.
 		TCar.Drive();
 		TCar.Stop();
 		
@@ -28,6 +29,7 @@ public class TEST {
 		System.out.println("Price: " + UPlane.PlanePrice);
 		System.out.println("Wing Span: " + UPlane.WingSpan + " Feet");
 		
+		//These will print out the information available in the specific methods used for the U2_SpyPlane class.
 		UPlane.Fly();
 		UPlane.Stop();
 		
@@ -41,6 +43,7 @@ public class TEST {
 		System.out.println("Price: " + FYacht.YachtPrice);
 		System.out.println("Main Sail Color: " + FYacht.MainSail);
 		
+		//These will print out the information available in the specific methods used for the FandangoYacht class.
 		FYacht.Float();
 		FYacht.Stop();
 	}
