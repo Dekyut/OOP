@@ -10,7 +10,6 @@ public class Toyota_VIOS extends Vehicle {
 	
 	@Override
 	void Stop() {
-		System.out.println("Override Method");
 		super.Stop();
 	}
 
