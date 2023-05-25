@@ -1,8 +1,11 @@
 package may22attendance;
 
+//This class has prints out all the information that is present in the other classes.
+
 public class TEST {
 	
 	public static void main(String[] args) {
+		//This Prints out info from the Toyota_VIOS Class
 		Toyota_VIOS TCar = new Toyota_VIOS();
 		
 		System.out.println("Toyota-VIOS:");
@@ -14,6 +17,8 @@ public class TEST {
 		TCar.Drive();
 		TCar.Stop();
 		
+		
+		//This prints out info from the U2_SpyPlane Class
 		U2_SpyPlane UPlane = new U2_SpyPlane();
 		
 		System.out.println("");
@@ -26,6 +31,7 @@ public class TEST {
 		UPlane.Fly();
 		UPlane.Stop();
 		
+		//This prints out info from the FandangoYacht Class
 		FandangoYacht FYacht = new FandangoYacht();
 		
 		System.out.println("");
